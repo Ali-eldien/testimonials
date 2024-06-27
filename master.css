@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsla(210, 55%, 79%, 0.382);
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-style: normal;
+}
+
+.container {
+    position: relative;
+    left: 7vw;
+    top: 7vw;
+    width: 70vw;
+    height: 45vw;
+    display: grid;
+    grid-template-columns: repeat(4, 20vw);   
+    grid-template-rows: repeat(2, 20vw); 
+    gap: 2vw;
+}
+
+.first {
+    position: relative;
+    grid-column: span 2;
+    background-color: hsl(263, 55%, 52%);
+}
+
+.photo0 {
+    position: absolute;
+    height: 8vw;
+    right: 7vw;
+}
+
+.photo1 {
+    position: absolute;
+    border: 1px  hsl(263, 59%, 64%) solid;
+    top: 2vw;
+    left: 3vw;
+    height: 2.7vw;
+    border-radius: calc( 2.7vw / 2);
+}
+
+.name1 {
+    position: absolute;
+    color: white;
+    left: 7vw;
+    top: 2vw;
+    line-height: 1.6;
+    font-size: 1.1vw;
+}
+
+.name11 {
+    color: rgba(255, 255, 255, 0.695);
+    font-size: 1vw;
+}
+
+.head1 {
+    position: relative;
+    font-size: 1vw;
+    right: 4vw;
+    top: 1vw;
+}
+
+.p1 {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.79);
+    font-size: 0.9vw;
+    max-width: 85%;
+    left: 3vw;
+    bottom: 2vw;
+    max-height: 6vw;
+    
+}
+
+.second {
+    position: relative;
+    background-color: hsl(217, 19%, 35%);
+}
+
+.second p {
+    max-width: 70%;
+}
+
+.second .name1 {
+    
+    font-size: 0.9vw;
+}
+
+.second h1 {
+    top: 1.5vw;
+    line-height: 1.8;
+}
+
+.third {
+    position: relative;
+    grid-row: span 2;
+    background-color: white;
+}
+
+.third p {
+    position: absolute;
+    color: rgba(128, 128, 128, 0.76);
+    bottom: 21vw;
+    max-width: 78%;
+    line-height: 1.5;
+    max-height: 20%;
+    font-size: 0.8vw;
+}
+
+.third .name1 {
+    color: hsl(210, 49%, 34%);
+    line-height: 1.4;
+    font-size: 1vw;
+}
+
+.third .name11 {
+    font-size: 0.8vw;
+    color: hsla(210, 49%, 34%, 0.599);
+}
+
+.fourth {
+    position: relative;
+    background-color: white;
+}
+
+.fourth div {
+    position: absolute;
+    color: hsl(210, 49%, 34%);
+    top: 2vw;
+    font-size: 1vw;
+
+}
+
+.fourth span {
+    position: absolute;
+    color: hsla(210, 49%, 34%, 0.622);
+    font-size: 0.8vw;
+    top: 1.5vw;
+}
+
+.fourth .head1 {
+    top: 2vw;
+    font-size: 1.2vw;
+}
+
+.fourth .p1 {
+    color: rgba(0, 0, 0, 0.434);
+    max-width: 80%;
+    bottom: 1.7vw;
+    line-height: 1.6;
+}
+
+.fifth{
+    position: relative;
+    grid-column: span 2;
+    background-color: hsl(219, 29%, 14%);
+}
+
+.fifth div {
+    top: 1.8vw;
+    line-height: 1.4;
+}
+
+.fifth .photo1 {
+    left: 2.5vw;
+}
+
+.fifth p {
+    line-height: 1.5;
+}
+
+.fifth .head1 {
+    line-height: 1.7;
+
+}
+.container div {
+    border-radius: 5px;
+}
+
+.first , .second , .third , .fourth , .fifth {
+    box-shadow: rgba(142, 142, 142, 0.174) 5px 15px 30px 2px;
+}
